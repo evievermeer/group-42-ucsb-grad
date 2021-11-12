@@ -1,0 +1,20 @@
+---
+title: "Group 42 UCSB domestic grad enrollment"
+author: "Evie Vermeer & Sophia Leiker"
+date: "11/12/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(here)
+library(tidyverse)
+```
+
+```{r}
+# Reading in data
+ucsb_grad <- read_csv(here("data",""))
+
+```
+
