@@ -14,7 +14,7 @@ library(tidyverse)
 
 ```{r}
 # Reading in data
-ucsb_grad <- read_csv(here("data",""))
+ucsb_grad <- read_csv(here("data","ucsb_grad_data.csv"))
 
 ```
 
