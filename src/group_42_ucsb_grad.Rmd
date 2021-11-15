@@ -21,6 +21,8 @@ ucsb_grad <- read_csv(here("data","ucsb_grad_data.csv"))
 ```{r}
 ggplot(data = ucsb_grad, aes(x = year_abbr, y = domestic_enrollment)) +
   geom_col(aes(fill = ethnicity), position="fill")+
-  labs(x="Year",y="Domestic Enrollment Proportion")
+  labs(x="Year",y="Domestic Enrollment Proportion", title = " Graduate Enrollment Proportions at UCSB by Race/Ethnicity 2008 - 2019") +
+  theme_minimal()
 ```
 
+**Figure 1**: Breakdown of UCSB graduate enrollment by race and ethnicity from 2008 to 2019 as proportions of the whole. Each color indicates an individual race/ethnicity with the largest proportion of enrollment falling into the race/ethnicity category of "White" which is represented by pink in the figure. 
